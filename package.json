@@ -3,6 +3,7 @@
   "author": "glg-dev",
   "version": "0.1.0",
   "homepage": "https://github.com/glg-dev/react-modal.git",
+  "private": "false",
   "description": "A modal component for your React app",
   "main": "dist/index.js",
   "module": "dist/index.js",
