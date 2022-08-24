@@ -11,15 +11,13 @@ const Modal = ({title, content, visible, hideModal}) => {
   }, [visible])
   
   return isVisible && (
-    <>
-      <div className={styles.wrapper}>
-        <div className={styles.container}>
-          <div className={styles.close} onClick={hideModal}>x</div>
-          <h1 className={styles.title}>{title}</h1>
-          <p className={styles.content}>{content}</p>
-        </div>
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        <div className={styles.close} onClick={hideModal}>x</div>
+        <h1 className={styles.title}>{title}</h1>
+        <p className={styles.content}>{content}</p>
       </div>
-    </>
+    </div>
   )
 };
 

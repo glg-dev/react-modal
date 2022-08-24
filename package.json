@@ -1,18 +1,24 @@
 {
   "name": "react-modal",
-  "version": "0.1.0",
-  "private": "false",
-  "description": "A modal component for your React app",
   "author": "glg-dev",
+  "version": "0.1.0",
+  "homepage": "https://github.com/glg-dev/react-modal.git",
+  "description": "A modal component for your React app",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
     "dist",
     "README.md"
   ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/glg-dev/react-modal.git"
   },
   "peerDependencies": {
     "react": ">=18.1.0",
@@ -28,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -54,6 +60,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0"
   }
 }
