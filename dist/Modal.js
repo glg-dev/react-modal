@@ -5,7 +5,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.Modal = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -57,5 +57,4 @@ var Modal = function Modal(_ref) {
   }, content)));
 };
 
-var _default = Modal;
-exports.default = _default;
+exports.Modal = Modal;

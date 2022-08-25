@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import styles from './Modal.module.scss'
 
-const Modal = ({title, content, visible, hideModal}) => {
+export const Modal = ({title, content, visible, hideModal}) => {
 
   const [isVisible, setIsVisible] = useState(false)
 
@@ -20,5 +20,3 @@ const Modal = ({title, content, visible, hideModal}) => {
     </div>
   )
 };
-
-export default Modal;

@@ -1,9 +1,9 @@
 {
-  "name": "react-modal",
+  "name": "@glg-dev/react-modal",
   "author": "glg-dev",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "homepage": "https://github.com/glg-dev/react-modal.git",
-  "private": "false",
+  "private": false,
   "description": "A modal component for your React app",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -16,6 +16,10 @@
       "@babel/preset-env",
       "@babel/preset-react"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
