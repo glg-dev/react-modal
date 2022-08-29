@@ -9,7 +9,7 @@ exports.Modal = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _ModalModule = _interopRequireDefault(require("./Modal.module.scss"));
+var _ModalModule = _interopRequireDefault(require("./Modal.module.css"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

@@ -37,3 +37,15 @@ const App = () => {
 export default App;
 ```
 
+## How to custom
+If you want add your own style, copy and edit the following snippet:
+```
+body {
+  --modal-font-family: sans-serif;
+  --modal-wrapper-bg: rgba(0, 0, 0, 0.7);
+  --modal-container-bg: #FFF;
+  --modal-container-border-radius: 1rem;
+  --modal-close-button-color: black;
+  --modal-content-font-size: 1.5rem;
+}
+```
