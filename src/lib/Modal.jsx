@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import styles from './Modal.module.scss'
+import styles from './Modal.module.css'
 
 export const Modal = ({title, content, visible, hideModal}) => {
 
