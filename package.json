@@ -1,7 +1,7 @@
 {
   "name": "@glg-dev/react-modal",
   "author": "glg-dev",
-  "version": "0.1.7",
+  "version": "1.0.6",
   "homepage": "https://github.com/glg-dev/react-modal.git",
   "private": false,
   "description": "A modal component for your React app",

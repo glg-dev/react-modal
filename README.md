@@ -40,12 +40,19 @@ export default App;
 ## How to custom
 If you want add your own style, copy and edit the following snippet:
 ```
-body {
-  --modal-font-family: sans-serif;
+:root {
+  --modal-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --modal-text-color: #000;
+  --modal-text-decoration: none;
+  --modal-z-index: 100;
   --modal-wrapper-bg: rgba(0, 0, 0, 0.7);
   --modal-container-bg: #FFF;
   --modal-container-border-radius: 1rem;
+  --modal-container-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px, rgba(0, 0, 0, 0.3) 0px 0px 15px;
+  --modal-container-padding: 2rem;
+  --modal-elements-gap: 1rem;
   --modal-close-button-color: black;
-  --modal-content-font-size: 1.5rem;
-}
+  --modal-close-button-border-radius: 50%;
+  --modal-title-font-size: 1.5rem;
+  --modal-content-font-size: 1rem;}
 ```

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
+import PropTypes from 'prop-types'
 import styles from './Modal.module.css'
 
 export const Modal = ({title, content, visible, hideModal}) => {
@@ -20,3 +21,10 @@ export const Modal = ({title, content, visible, hideModal}) => {
     </div>
   )
 };
+
+Modal.propTypes = {
+  title: PropTypes.string,
+  content: PropTypes.string,
+  visible: PropTypes.bool.isRequired,
+  hideModal: PropTypes.func.isRequired
+}

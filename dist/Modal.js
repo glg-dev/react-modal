@@ -9,6 +9,8 @@ exports.Modal = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
 var _ModalModule = _interopRequireDefault(require("./Modal.module.css"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -58,3 +60,9 @@ var Modal = function Modal(_ref) {
 };
 
 exports.Modal = Modal;
+Modal.propTypes = {
+  title: _propTypes.default.string,
+  content: _propTypes.default.string,
+  visible: _propTypes.default.bool.isRequired,
+  hideModal: _propTypes.default.func.isRequired
+};
